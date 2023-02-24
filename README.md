@@ -8,16 +8,20 @@ After running you will see 2 files, model.pkl and model_columns.pkl
 
 
 ## Running API
-Run  `python api.py` on localhost
+Run  `python api.py` on localhost/br
+</br>
 Request example
+```
 [
     {"Age": 85, "Sex": "male", "Embarked": "S"},
     {"Age": 24, "Sex": "female", "Embarked": "C"},
     {"Age": 3, "Sex": "male", "Embarked": "C"},
     {"Age": 21, "Sex": "male", "Embarked": "S"}
 ]
-
+```
+</br>
 return surviived
+</br>
 {
     "prediction": "[0, 1, 0, 0]"
 }
